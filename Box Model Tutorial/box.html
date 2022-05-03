@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="box.css">
+</head>
+<body>
+    <h1>CSS Picture Frame</h1>
+        <div class="border">
+            <div class="padding">
+                <div class="content">
+                    &#127856;
+                </div>
+            </div>
+        </div>
+
+        <div id="inputs">
+        <div id="sliders">
+            <h3>Border: </h3>
+            <input type="range" name="" id="border-range"  min="10" max="100">
+            <h3>Padding: </h3>
+            <input type="range" name="" id="padding-range" min="10" max="100">
+            <h3>Content: </h3>
+            <input type="range" name="" id="content-range" min="10" max="100"> 
+        </div>
+
+            <div id="colors">
+                <h3>Border:</h3>
+                <input type="color" name="" id="border-color">
+                <h3>Padding</h3>
+                <input type="color" name="" id="padding-color">
+                <h3>Content</h3>
+                <input type="color" name="" id="content-color">
+            </div>
+        </div>
+        <script src="box.js"></script>
+</body>
+</html>
